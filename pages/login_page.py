@@ -1,5 +1,5 @@
 from .base_page import BasePage
-from ..locators import LoginPageLocators
+from pytest_task.pages.locators import LoginPageLocators
 
 
 class LoginPage(BasePage):
